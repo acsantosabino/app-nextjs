@@ -17,7 +17,8 @@ export function getStaticProps(){
   return {
     props:{
       staticDateString: dynamicString
-    }
+    },
+    revalidate: 1
   }
 
 }
